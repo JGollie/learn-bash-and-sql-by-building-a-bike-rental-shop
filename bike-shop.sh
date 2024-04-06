@@ -75,6 +75,7 @@ else
         echo $BIKE_INFO | sed 's/ |/"/'
         BIKE_INFO_FORMATTED=$(echo $BIKE_INFO | sed 's/ |/"/')
         # send to main menu
+        MAIN_MENU "I have put you down for the $BIKE_INFO_FORMATTED Bike, $CUSTOMER_NAME."
         fi
     
     fi
