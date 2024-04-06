@@ -94,6 +94,7 @@ then
     MAIN_MENU "I could not find a record for that phone number."
 else
 # get customer's rentals
+echo "$($PSQL "SELECT * FROM bikes LEFT JOIN rentals USING(bike_id)")"
 # if no rentals
 # send to main menu
 fi
