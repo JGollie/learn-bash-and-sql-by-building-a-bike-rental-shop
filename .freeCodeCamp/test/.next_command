@@ -60,3 +60,7 @@ chmod +x bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+echo $1
+echo $1
+echo $1
+./bike-shop.sh
