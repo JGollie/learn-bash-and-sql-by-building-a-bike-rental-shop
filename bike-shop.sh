@@ -33,6 +33,7 @@ else
         echo "$BIKE_ID) $SIZE\" $TYPE Bike"
     done
     # ask for bike to rent
+    echo -e "\nWhich one would you like to rent?"
     # if input is not a number
     # send to main menu
 fi
