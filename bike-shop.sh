@@ -72,7 +72,7 @@ else
         SET_TO_FALSE_RESULT=$($PSQL "UPDATE bikes SET available = FALSE where bike_id = $BIKE_ID_TO_RENT")
         # get bike info
         BIKE_INFO=$($PSQL "SELECT size, type FROM bikes WHERE bike_id = $BIKE_ID_TO_RENT")
-        echo $BIKE_INFO
+        echo $BIKE_INFO | sed 's/ |/"/'
         # send to main menu
         fi
     
