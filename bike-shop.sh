@@ -17,9 +17,11 @@ MAIN_MENU() {
     esac
 }
 RENT_MENU() {
-    # get available bikes
-    # if no bikes available
-    # send to main menu
+# get available bikes
+AVAILABLE_BIKES=$($PSQL "SELECT bike_id, type, size FROM bikes WHERE available = TRUE ORDER BY bike_id")
+
+# if no bikes available
+# send to main menu
 }
 RETURN_MENU() {
     echo Return Menu
