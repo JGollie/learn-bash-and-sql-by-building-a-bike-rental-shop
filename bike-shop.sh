@@ -16,7 +16,7 @@ MAIN_MENU() {
     esac
 }
 RENT_MENU() {
-    echo Rent Menu
+    
 }
 RETURN_MENU() {
     echo Return Menu
