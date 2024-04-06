@@ -83,7 +83,9 @@ else
 fi
 }
 RETURN_MENU() {
-    
+# get customer info
+# if not found
+# send to main menu
 }
 EXIT() {
     echo -e "\nThank you for stopping in.\n"
