@@ -58,6 +58,7 @@ else
             if [[ -z $CUSTOMER_NAME ]]
             then
             # get new customer name
+                echo -e "\nWhat's your name?"
             # insert new customer
             fi
         
