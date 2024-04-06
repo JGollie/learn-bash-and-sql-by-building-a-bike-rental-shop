@@ -30,7 +30,7 @@ else
     echo -e "\nHere are the bikes we have available:"
     echo "$AVAILABLE_BIKES" | while read BIKE_ID BAR TYPE BAR SIZE 
     do 
-        echo $BIKE_ID $TYPE $SIZE
+        echo "$BIKE_ID) $SIZE\" $TYPE Bike"
     done
     # ask for bike to rent
     # if input is not a number
