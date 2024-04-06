@@ -83,7 +83,7 @@ else
 fi
 }
 RETURN_MENU() {
-    echo Return Menu
+    
 }
 EXIT() {
     echo -e "\nThank you for stopping in.\n"
