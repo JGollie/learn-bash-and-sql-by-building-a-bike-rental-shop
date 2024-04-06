@@ -34,6 +34,7 @@ else
     done
     # ask for bike to rent
     echo -e "\nWhich one would you like to rent?"
+    read BIKE_ID_TO_RENT
     # if input is not a number
     # send to main menu
 fi
