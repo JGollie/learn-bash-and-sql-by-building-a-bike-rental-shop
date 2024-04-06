@@ -72,3 +72,4 @@ echo $1
 ./bike-shop.sh "what"
 ./bike-shop.sh "what"
 ./bike-shop.sh "what"
+pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
