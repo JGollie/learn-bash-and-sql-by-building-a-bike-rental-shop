@@ -35,7 +35,7 @@ else
     # ask for bike to rent
     # if input is not a number
     # send to main menu
-    fi
+fi
 }
 RETURN_MENU() {
     echo Return Menu
