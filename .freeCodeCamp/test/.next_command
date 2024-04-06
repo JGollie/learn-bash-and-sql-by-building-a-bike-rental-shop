@@ -78,3 +78,4 @@ echo -e "\n$AVAILABLE_BIKES"
 echo -e "\n$AVAILABLE_BIKES"
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
