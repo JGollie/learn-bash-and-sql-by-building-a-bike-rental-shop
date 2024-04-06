@@ -100,7 +100,12 @@ echo "$CUSTOMER_RENTALS"
 if [[ -z $CUSTOMER_RENTALS ]]
 then
 # send to main menu
-MAIN_MENU "You do not have any bikes rented."
+    MAIN_MENU "You do not have any bikes rented."
+else
+# display rented bikes
+# ask for bike to return
+# if not a number
+# send to main menu
 fi
 
 fi
