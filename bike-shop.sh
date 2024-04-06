@@ -65,10 +65,11 @@ else
                         
             fi
             # get customer_id
-            # insert bike rental
-            # set bike availability to false
-            # get bike info
-            # send to main menu
+        CUSTOMER_ID=$($PSQL "SELECT customer_id FROM customers WHERE phone = '$PHONE_NUMBER'")
+        # insert bike rental
+        # set bike availability to false
+        # get bike info
+        # send to main menu
         fi
     
     fi
