@@ -16,7 +16,9 @@ MAIN_MENU() {
     esac
 }
 RENT_MENU() {
-    
+    # get available bikes
+    # if no bikes available
+    # send to main menu
 }
 RETURN_MENU() {
     echo Return Menu
