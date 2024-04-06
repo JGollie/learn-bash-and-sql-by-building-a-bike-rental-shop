@@ -75,3 +75,5 @@ echo $1
 pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
 AVAILABLE_BIKES=$($PSQL "SELECT bike_id, type, size FROM bikes WHERE available = TRUE ORDER BY bike_id")
 echo -e "\n$AVAILABLE_BIKES"
+echo -e "\n$AVAILABLE_BIKES"
+./bike-shop.sh
