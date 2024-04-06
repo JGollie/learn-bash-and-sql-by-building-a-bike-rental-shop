@@ -51,6 +51,7 @@ else
             MAIN_MENU "That bike is not available."
         else
         # get customer info
+        echo -e "\nWhat's your phone number?"
         # if customer doesn't exist
         # get new customer name
         # insert new customer
