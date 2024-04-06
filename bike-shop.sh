@@ -39,7 +39,7 @@ else
     if [[ ! $BIKE_ID_TO_RENT =~ ^[0-9]+$ ]]
     then
     # send to main menu
-        
+       MAIN_MENU "That is not a valid bike number." 
     fi
     
 fi
