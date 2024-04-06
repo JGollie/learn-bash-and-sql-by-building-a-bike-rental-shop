@@ -53,6 +53,7 @@ else
         # get customer info
         echo -e "\nWhat's your phone number?"
         read PHONE_NUMBER
+        CUSTOMER_NAME=$($PSQL "SELECT name FROM customers WHERE phone = '$PHONE_NUMBER'")
         # if customer doesn't exist
         # get new customer name
         # insert new customer
