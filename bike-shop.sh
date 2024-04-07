@@ -126,6 +126,7 @@ else
             MAIN_MENU "You do not have that bike rented."
             else
                 # update date_returned
+                RETURN_BIKE_RESULT=$($PSQL "UPDATE rentals SET date_returned = NOW() WHERE rental_id = $RENTAL_ID")
                 # set bike availability to true
                 # send to main menu
             fi
