@@ -155,3 +155,4 @@ echo "$(echo ' M e ' | sed -r 's/^ *| *$//g')."
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
